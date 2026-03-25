@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>謝東諺 | 個人簡介</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap');
+        body { font-family: 'Noto Sans TC', sans-serif; -webkit-tap-highlight-color: transparent; }
+        .bg-gradient { background: linear-gradient(135deg, #064e3b 0%, #059669 100%); }
+    </style>
+</head>
+<body class="bg-slate-50">
+
+    <!-- 手機版導航 -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm px-6 py-4 flex justify-between items-center">
+        <h1 class="text-xl font-black text-green-900">DY.HSIEH</h1>
+        <a href="mailto:dongyan@example.com" class="text-green-700 font-bold text-sm underline">聯絡我</a>
+    </nav>
+
+    <!-- 主視覺區 -->
+    <header class="bg-gradient text-white px-8 py-16 text-center">
+        <div class="mb-6 inline-block p-4 bg-white/10 rounded-full">
+            <i class="fas fa-seedling text-4xl text-emerald-300"></i>
+        </div>
+        <h2 class="text-4xl font-black mb-4">我是 謝東諺</h2>
+        <p class="text-green-100/90 text-sm leading-relaxed mb-8">
+            屏科大工管系大二學生<br>數據、效率、與森林綠的愛好者
+        </p>
+        <div class="flex justify-center gap-4">
+            <div class="bg-white text-green-900 px-6 py-2 rounded-full font-bold text-sm shadow-xl">工管專業</div>
+            <div class="border border-white/40 px-6 py-2 rounded-full font-bold text-sm text-white">屏科大生活</div>
+        </div>
+    </header>
+
+    <!-- 內容區 -->
+    <main class="px-8 py-12 space-y-10">
+        <section>
+            <h3 class="text-lg font-bold text-green-900 border-l-4 border-green-700 pl-3 mb-4">關於我</h3>
+            <p class="text-slate-600 text-sm leading-loose">
+                來自充滿綠意的屏科大，我學習如何透過工業工程的邏輯來優化生活。我深信「持續改善」的力量。
+            </p>
+        </section>
+
+        <section class="grid grid-cols-1 gap-4">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-green-50">
+                <i class="fas fa-chart-bar text-green-600 mb-3"></i>
+                <h4 class="font-bold mb-1">品質管制</h4>
+                <p class="text-slate-500 text-xs">掌握統計工具，確流程穩定。</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-green-50">
+                <i class="fas fa-boxes text-green-600 mb-3"></i>
+                <h4 class="font-bold mb-1">生產管理</h4>
+                <p class="text-slate-500 text-xs">優化排程，達成最高效率。</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-900 py-10 text-center text-slate-500 text-xs uppercase tracking-widest">
+        &copy; 2026 謝東諺 DY.HSIEH
+    </footer>
+
+</body>
+</html>
+
